@@ -19,6 +19,7 @@ let's pick an account microservice for example
 [Dockerfile](https://github.com/layor2257/Vertical-deployment/blob/main/Dockerfile)
 
 ##CREATE A RUN.SH
+
 The [run.sh](https://github.com/layor2257/Vertical-deployment/blob/main/run.sh) file should be executable
 
 
