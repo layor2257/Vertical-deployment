@@ -15,6 +15,6 @@ you would install node, docker-compose (and docker engine if required), and in t
 # CREATE A DOCKERFILE
 let's pick an account microservice for example
 
-[Dockerfile](https://learn.microsoft.com/en-us/azure/aks/kubernetes-action)
+[Dockerfile](https://github.com/layor2257/Vertical-deployment/blob/main/Dockerfile)
 
 
