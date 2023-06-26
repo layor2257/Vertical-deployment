@@ -74,5 +74,8 @@ Command to add certbot configuration to your endpoint:
 # STEP FIVE
 ## Create a .env file to keep your environment variables
 
+# STEP SIX
+## Create an A sub-domain under the main domain. This can be done using e.g route 53
+
 
 
