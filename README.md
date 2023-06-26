@@ -12,9 +12,14 @@ All required dependencies for the language the service was written need to be in
 For example a node js:
 you would install node, docker-compose (and docker engine if required), and in the application directory run npm install to fetch and install all dependencies specified in the Package.json file.
 
-# CREATE A DOCKERFILE
+#STEP THREE
+## CREATE A DOCKERFILE
 let's pick an account microservice for example
 
 [Dockerfile](https://github.com/layor2257/Vertical-deployment/blob/main/Dockerfile)
+
+##CREATE A RUN.SH
+The [run.sh](https://github.com/layor2257/Vertical-deployment/blob/main/run.sh) file should be executable
+
 
 
