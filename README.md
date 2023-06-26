@@ -3,6 +3,8 @@
 
 [You need to generate a GitHub ssh key and add it to the server to be able to clone the repos](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/GitHub-SSH-Key-Setup-Config-Ubuntu-Linux)
 
+[clone repo and commit changes](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=create-repo-command-palette%2Cinitialize-repo-activity-bar%2Ccreate-branch-command-palette%2Ccommit-changes-command-palette%2Cpush-command-palette)
+
 
 # STEP TWO
 Note for a PHP project the repo would be cloned in the HTML directory, this is the full path: /var/www/html
