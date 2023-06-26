@@ -18,7 +18,7 @@ let's pick an account microservice for example
 
 [Dockerfile](https://github.com/layor2257/Vertical-deployment/blob/main/Dockerfile)
 
-##CREATE A RUN.SH
+## CREATE A RUN.SH
 
 The [run.sh](https://github.com/layor2257/Vertical-deployment/blob/main/run.sh) file should be executable
 
@@ -70,6 +70,9 @@ Command to add certbot configuration to your endpoint:
 ```sudo certbot certonly --webroot -w /path/to/webroot -d accounttest.reckopay.com```
 
 **Note: Always restart your nginx after every update**
+
+# STEP FIVE
+## Create a .env file to keep your environment variables
 
 
 
