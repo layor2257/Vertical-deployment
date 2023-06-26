@@ -69,6 +69,7 @@ Command to add certbot configuration to your endpoint:
 
 ```sudo certbot certonly --webroot -w /path/to/webroot -d accounttest.reckopay.com```
 
+**Note: Always restart your nginx after every update**
 
 
 
