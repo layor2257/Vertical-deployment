@@ -34,10 +34,10 @@ sites-enabled: The "sites-enabled" directory contains symbolic links (or shortcu
 The separation between "sites-available" and "sites-enabled" allows for better organization and management of web server configurations. It enables administrators to easily enable or disable websites by manipulating the symbolic links in the "sites-enabled" directory without modifying the original configuration files in "sites-available". This approach helps prevent accidental misconfigurations and allows for easy management of multiple websites on a server.
 
 ```
-## TINGO ACCOUNTTEST SERVICE
+## ACCOUNTTEST SERVICE
 server {
 
-        server_name accounttest.tingopay.com;
+        server_name accounttest.reckopay.com;
 
 #       root /var/www/example.com;
 #       index index.html;
@@ -55,8 +55,8 @@ server {
 
 
     listen 443 ssl; # managed by Certbot
-    ssl_certificate /etc/letsencrypt/live/accounttest.tingopay.com/fullchain.pem; # managed by Certbot
-    ssl_certificate_key /etc/letsencrypt/live/accounttest.tingopay.com/privkey.pem; # managed by Certbot
+    ssl_certificate /etc/letsencrypt/live/accounttest.reckopay.com/fullchain.pem; # managed by Certbot
+    ssl_certificate_key /etc/letsencrypt/live/accounttest.reckopay.com/privkey.pem; # managed by Certbot
     include /etc/letsencrypt/options-ssl-nginx.conf; # managed by Certbot
     ssl_dhparam /etc/letsencrypt/ssl-dhparams.pem; # managed by Certbot
 
